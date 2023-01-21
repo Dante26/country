@@ -1,0 +1,63 @@
+#navBarText{
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+#navBarDark{
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+#moonImg{
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+#country-search{
+    width: 37%;
+    padding: 0.5%;
+    margin-bottom: 2.5%;
+    display: inline-block;
+}
+
+#region-filter{
+    width: 14%;
+    display: inline-block;
+    margin-left: 37.3%;
+}
+
+#reset-button{
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 0.3%;
+}
+
+
+.snackbar {
+    display: inline-block;
+    position: fixed;
+    background: #323232;
+    color: #f1f1f1;
+    min-height: 50px;
+    min-width: 290px;
+    padding: 16px 24px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 2px;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 90%;
+    transition: visibility 0.3s, transform 0.3s;
+    transform: translateY(100px);
+    visibility: hidden;
+    will-change: transform;
+  }
+  
+  .snackbar--visible {
+    visibility: visible;
+    transform: none;
+  }
+
+
+
+
