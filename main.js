@@ -39,15 +39,15 @@ const init = (query = "", select = "") =>{
 }
 
 countrySearch.addEventListener("keyup", event =>{
-    init(countrySearch.value, undefined);
+    init(countrySearch.value, regionFilter.value);
 });
 
 regionFilter.addEventListener("change", event =>{
-    init(undefined, regionFilter.value);
+    init(countrySearch.value, regionFilter.value);
 });
 
 resetButton.addEventListener("click", event =>{
-    init("", "");
+    init();
     countrySearch.value = "";
     regionFilter.value = "";
     snackbar.show("Filters have been reset");
